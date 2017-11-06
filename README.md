@@ -77,26 +77,23 @@ _Your repository must include:_
 _Your README.md must include:_
 
 ```md
-# Project Name
+# Kilovolt Blog with Functional Programming
 
-**Author**: Your Name Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Author**: Will Reid
+**Version**: 1.0.0
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+Our goal with this project was to build on a mobile-first site, using jQuery to dynamically render blog posts sorted by most recent publication date and allow dynamic filtering in response to user preference for particular authors or categories.  We attempted to refactor some code lines to utilize functional programming best practices.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+To build this app on your own machine, clone this repo and launch the html page in your browser. You will need express and bodyParser, as well as Handlebars, and a node instance.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+We are using a SMACSS organization of our CSS. The index.html file reveals the basic template for each article; the article.js file constructs each article; and the articleView.js file allows the user to interact with the elements on-screen.  The server.js file allows the server to provide content.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+11-06-2017 -- committing with template links.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+I'd like to thank JB Tellez for helping me activate postgresql at long last.
 ```
